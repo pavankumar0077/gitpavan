@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script language="JavaScript" src="valiation.js"></script>
+</head>
+<form action="voteurl" method="post" onsubmit="return validation(this)">
+Person name : <input type="text" name ="pname"/><span id="nameErr"></span><br>
+Person age : <input type="password" name="page"/><span id ="ageErr"></span><br>
+<!-- Hidden box -->
+<input type = "hidden" value="no" name="vflag"/><br>
+<input type ="submit" value="check voting Elgibility">
+</form>
+</html>
